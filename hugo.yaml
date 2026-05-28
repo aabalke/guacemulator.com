@@ -1,5 +1,5 @@
 #baseURL: http://0.0.0.0:1313/
-baseURL: https://guacemulator.com
+baseURL: /
 title: Guac Emulator
 theme: hugo-book
 
