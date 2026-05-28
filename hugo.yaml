@@ -1,8 +1,8 @@
 baseURL: http://0.0.0.0:1313/
-title: Documentation
+title: Guac Emulator
 theme: hugo-book
 
-copyright: "This is a copyright placeholder"
+copyright: "MIT License"
 
 # Book configuration
 disablePathToLower: true
@@ -40,16 +40,16 @@ markup:
 menu:
   home:
     - name: "Documentation"
-      pageRef: "/docs/"
+      pageRef: "/docs/getting-started"
       weight: 10
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book/"
+      url: "https://github.com/aabalke/guac/"
       weight: 20
 
   # before: []
   after:
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+      url: "https://github.com/aabalke/guac"
       weight: 10
 
 taxonomies:
@@ -58,7 +58,7 @@ taxonomies:
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "light"
+  BookTheme: "dark"
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -67,7 +67,7 @@ params:
 
   # (Optional, default favicon.png) Set the path to a favicon file.
   # If the favicon is /static/favicon.png then the path would be favicon.png
-  # BookFavicon: "favicon.png"
+  BookFavicon: "favicon.svg"
 
   # (Optional, default none) Set the path to a logo for the book.
   # If the logo is /static/logo.png then the path would be logo.png
@@ -110,12 +110,12 @@ params:
   # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
   # Theme will print warning or error if page referenced in markdown does not exists.
   # Possible values are false | 'warning' | 'error'
-  BookPortableLinks: 'warning'
+  BookPortableLinks: "warning"
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   # can be false, true or 'precache', precache will try to download all content pages on install.
-  BookServiceWorker: 'precache'
+  BookServiceWorker: "precache"
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.

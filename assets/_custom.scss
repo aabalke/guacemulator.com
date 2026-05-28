@@ -2,3 +2,25 @@
 
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
+
+
+
+
+//.book-page {
+//  max-width: 75%,
+//}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+}
+
+$body-min-width: 20rem !default;
+$container-max-width: 1000rem !default;

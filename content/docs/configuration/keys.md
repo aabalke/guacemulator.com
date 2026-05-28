@@ -1,0 +1,137 @@
+---
+weight: 1
+params:
+  bookFlatSection: true
+---
+
+# Keys
+
+Keyboard input uses a Custom list of key names, which matches [Ebitenengine](https://ebitengine.org/).
+Mouse input configuration is not supported at this time. The following values are valid:
+
+	A
+	B
+	C
+	D
+	E
+	F
+	G
+	H
+	I
+	J
+	K
+	L
+	M
+	N
+	O
+	P
+	Q
+	R
+	S
+	T
+	U
+	V
+	W
+	X
+	Y
+	Z
+	Alt
+	AltLeft
+	AltRight
+	ArrowDown
+	ArrowLeft
+	ArrowRight
+	ArrowUp
+	Backquote
+	Backslash
+	Backspace
+	BracketLeft
+	BracketRight
+	CapsLock
+	Comma
+	ContextMenu
+	Control
+	ControlLeft
+	ControlRight
+	Delete
+	Digit0
+	Digit1
+	Digit2
+	Digit3
+	Digit4
+	Digit5
+	Digit6
+	Digit7
+	Digit8
+	Digit9
+	End
+	Enter
+	Equal
+	Escape
+	F1
+	F2
+	F3
+	F4
+	F5
+	F6
+	F7
+	F8
+	F9
+	F10
+	F11
+	F12
+	F13
+	F14
+	F15
+	F16
+	F17
+	F18
+	F19
+	F20
+	F21
+	F22
+	F23
+	F24
+	Home
+	Insert
+	IntlBackslash
+	Meta
+	MetaLeft
+	MetaRight
+	Minus
+	NumLock
+	Numpad0
+	Numpad1
+	Numpad2
+	Numpad3
+	Numpad4
+	Numpad5
+	Numpad6
+	Numpad7
+	Numpad8
+	Numpad9
+	NumpadAdd
+	NumpadDecimal
+	NumpadDivide
+	NumpadEnter
+	NumpadEqual
+	NumpadMultiply
+	NumpadSubtract
+	PageDown
+	PageUp
+	Pause
+	Period
+	PrintScreen
+	Quote
+	ScrollLock
+	Semicolon
+	Shift
+	ShiftLeft
+	ShiftRight
+	Slash
+	Space
+	Tab
+
+The config file uses these quoted values in a comma separated list.
+The settings ui uses these value, not quoted, in a comma separated line.
+
