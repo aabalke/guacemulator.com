@@ -24,3 +24,25 @@ h3 {
 
 $body-min-width: 20rem !default;
 $container-max-width: 1000rem !default;
+
+
+.markdown {
+
+  // {{< button >}}
+  a.book-btn[href] {
+    display: inline-block;
+    font-size: var(--font-size-smaller);
+    color: var(--color-link);
+    line-height: $padding-16 * 2;
+    padding: 0 $padding-16;
+    border: $padding-1 solid var(--color-link);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+      color: var(--body-font-color);
+      border: $padding-1 solid var(--body-font-color);
+    }
+  }
+}

@@ -8,7 +8,7 @@ weight: 2
 
 guac does not require any bios or firmware files (but you can provide!), just the roms you are interested in using. It also has full controller support, even in menus, with on-screen keyboards.
 
-## Jit Compiler
+## Performance
 
 Nintendo DS emulation on guac comes with a one-of-a-kind jit compiler. This allows cpu emulation to be 2-5x faster, depending on workloads. This is the first jit compiler that can interop with (more like confuse) the golang runtime to allow calls to go functions from jit code. Additionally, this is the first arm64 jit compiler written in golang. For more information, please see aabalke/gojit.
 
