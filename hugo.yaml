@@ -52,6 +52,9 @@ menu:
     - name: "Github"
       url: "https://github.com/aabalke/guac"
       weight: 10
+    - name: "Video Archive"
+      url: "https://www.youtube.com/playlist?list=PLsnma4-KqVeW0w6Obc8K33R_MRzyzJLa7"
+      weight: 10
 
 taxonomies:
   tag: tags
@@ -72,7 +75,7 @@ params:
 
   # (Optional, default none) Set the path to a logo for the book.
   # If the logo is /static/logo.png then the path would be logo.png
-  # BookLogo: /logo.png
+  #BookLogo: /logo-light.png
 
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/

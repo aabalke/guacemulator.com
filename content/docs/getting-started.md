@@ -7,7 +7,7 @@ weight: 1
 ## Installation
 
 The latest release is available as pre-compiled binaries on [github](https://github.com/aabalke/guac/releases).
-Binaries are available for Windows x86/ARM, Linux x86/ARM, and Mac ARM.
+Binaries are available for Windows amd64, and Linux amd64/arm64.
 
 ## Building
 
@@ -24,4 +24,5 @@ For building on Debian systems the following packages must be installed:
 sudo apt install libx11-dev libxrandr-dev libxcursor-dev libxinerama-dev libxi-dev libasound2-plugins libgtk-3-dev pkg-config
 ```
 
-On Ubuntu these packages should come installed; however, on Raspberry Pi OS these packages will not come pre-installed.
+Audio drivers/hardware is a requirement for using guac, even if muted.
+On Raspberry Pi and other systems you may need to adjust ALSA defaults.pcm.card and defaults.pcm.card settings if you receive error 524.

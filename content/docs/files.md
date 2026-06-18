@@ -13,7 +13,7 @@ are supported.
 
 Save files are generated or overwritten at runtime, they will always be in the 
 same directory as rom, with the same file path except with an additional ".save"
-at the time. The rom "./mario.nds", will have the save "./mario.nds.save".
+at the time. The rom "./mario.nds", will have the save "./mario.nds.save". Guac only supports uncompressed / raw save files. If you are sharing save files between emulators ensure the saves are in that that format.
 
 ## Bios / Firmware
 
