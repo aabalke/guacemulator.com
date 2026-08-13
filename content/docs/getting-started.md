@@ -11,7 +11,7 @@ Binaries are available for Windows amd64, and Linux amd64/arm64.
 
 ## Building
 
-Building from source is possible with go version >= 1.26, using:
+Building from source is possible with go version >= 1.26.5, using:
 
 ```
 go build .

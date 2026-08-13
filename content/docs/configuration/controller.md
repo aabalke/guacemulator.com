@@ -28,5 +28,3 @@ Axis input is not supported at this time. The following values are valid:
 	CenterCenter
 
 The config file uses these quoted values in a comma separated list.
-The settings ui uses these value, not quoted, in a comma separated line.
-
