@@ -3,13 +3,9 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
-
-
-
 //.book-page {
 //  max-width: 75%,
 //}
-
 
 :root {
   --input-bg: #434c5e;
@@ -42,7 +38,6 @@ h3 {
 
 $body-min-width: 20rem !default;
 $container-max-width: 1000rem !default;
-
 
 .markdown {
 
@@ -89,6 +84,7 @@ $container-max-width: 1000rem !default;
   background: transparent;
 }
 
+select,
 input[type="text"] {
   background: var(--input-bg);
   color: inherit;
@@ -98,6 +94,7 @@ input[type="text"] {
   font: inherit;
 }
 
+select:disabled,
 input[type="text"]:disabled {
   background: var(--input-disabled);
   color: var(--input-bg);
@@ -198,7 +195,8 @@ input[type="radio"]:disabled {
 
 #disassembly,
 #disassembly:disabled,
-[id="hex input"] {
+#hex_input,
+#hex_input:disabled {
   padding: 1rem;
   background: var(--input-bg);
   border: transparent;
