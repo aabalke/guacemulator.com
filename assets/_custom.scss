@@ -223,6 +223,7 @@ input[type="radio"]:disabled {
   user-select: none;
 }
 
+input[type="text"]::placeholder,
 textarea::placeholder {
   color: #798191;
   opacity: 1;
